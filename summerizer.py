@@ -10,16 +10,13 @@ def summerize(text):
     parser = PlaintextParser.from_string(text, Tokenizer('english'))
     lsa_summarizer = LsaSummarizer()
     lsa_summary = lsa_summarizer(parser.document, len(l)//2)
-    #print('**********************************')
-    print("Text :")
-    print(text)
-    print("")
-    print("Summary :")
-    for sentence in lsa_summary:
-        print(sentence)
     
-def ocr(img):
-    return pss.image_to_string(img)
+    summary=""
+    for sentence in lsa_summary:
+    	summary+=" "+str(sentence)
+    return text,summary
+
+
 
 
 
