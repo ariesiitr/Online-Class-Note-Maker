@@ -42,7 +42,7 @@ These requirements can be easily installed by:
 
 - __main.py__: This is the main file which combines all the other scripts to output the required info.
 - __caption.py__: This script contains the model for image captioning and returns image caption for a particular input image.
-- __summariser.py__: This script contains all the necessary functions to summarise the text obtained from the pdf.
+- __summarizer.py__: This script contains all the necessary functions to summarize the text obtained from the pdf.
 
 ## Usage
 
