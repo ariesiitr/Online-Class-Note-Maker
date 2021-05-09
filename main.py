@@ -1,6 +1,6 @@
 import pdfplumber
 
-import summerizer as sum
+import summarizer as sum
 import caption as cap
 import PyPDF2
 import fitz
