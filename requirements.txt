@@ -1,0 +1,16 @@
+1.Python 3.6
+2.sumy 
+3.pdfplumber
+4.fitz
+5.tensorflow
+6.pillow
+7.matplotlib
+8.h5py
+9.keras
+10.numpy
+8.pydot
+9.nltk
+10.progressbar2
+11.pytesseract
+12.PyPDF2
+13.io
