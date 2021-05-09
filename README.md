@@ -53,4 +53,4 @@ After the requirements have been installed, the process from training to testing
 3. Update all the paths in the caption.py script from line 40 to 44 accordingly.
 4. Run the main.py script.
 
-Hurrah!! You have got yourself some notes compiled from prvided pdf along with captioned images! 
+Hurrah!! You have got yourself some notes compiled from provided pdf along with captioned images! 
