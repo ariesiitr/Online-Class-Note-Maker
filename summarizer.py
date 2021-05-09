@@ -5,7 +5,7 @@ from sumy.nlp.tokenizers import Tokenizer
 from sumy.parsers.plaintext import PlaintextParser
 from sumy.summarizers.lsa import LsaSummarizer
 
-def summerize(text):
+def summarize(text):
     l = text.split('.')
     parser = PlaintextParser.from_string(text, Tokenizer('english'))
     lsa_summarizer = LsaSummarizer()
